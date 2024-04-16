@@ -1,0 +1,15 @@
+[package]
+name = "evaluation"
+version = "0.1.0"
+edition = "2021"
+authors = ["shenjianeng2021 <shenjianeng2016@163.com>"]
+build = "build.rs"
+description = ""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.5.1"
+
+[build-dependencies]
+slint-build = "1.5.1"
